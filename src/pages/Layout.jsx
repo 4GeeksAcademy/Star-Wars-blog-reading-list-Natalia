@@ -24,7 +24,7 @@ export const Layout = () => {
       <ScrollToTop />
       <Navbar />
 
-      {/* Main content that pushes footer down */}
+  
       <div style={{ flex: 1 }}>
         <Outlet />
       </div>

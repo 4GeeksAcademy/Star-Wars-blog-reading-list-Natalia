@@ -57,8 +57,8 @@ export const Navbar = ({ children }) => {
           </IconButton>
           <Box sx={{ minWidth: 120 }}>
            <Button component={Link} to="/dashboard" color="inherit" sx={{ mr: 2 }}>
-  Dashboard
-</Button>
+           Dashboard
+           </Button>
 
             <Button
               variant="contained"

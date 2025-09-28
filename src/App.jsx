@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Views } from "./pages/Views";
-import { Layout } from "./pages/Layout"; // <-- użyj Layout tutaj
+import { Layout } from "./pages/Layout"; 
 import stars from './assets/img/stars.gif';
 
 export const App = () => {
