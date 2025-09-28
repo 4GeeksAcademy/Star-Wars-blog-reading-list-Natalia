@@ -1,11 +1,12 @@
+import { Box, Link, Typography } from "@mui/material";
+
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Check the <a target="_blank" href="https://4geeks.com/docs/start/start-react-advanced">template documentation</a> <i className="fa-solid fa-file"></i> for help.
-		</p>
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
-	</footer>
+  <Box component="footer" sx={{ mt: 'auto', py: 3, textAlign: 'center', bgcolor: '#121212', color: 'yellow' }}>
+    <Typography variant="body2">
+      © 2025 |{" "}
+      <Link href="https://github.com/NatiSen" target="_blank" rel="noopener noreferrer" color="inherit" underline="hover">
+        GitHub
+      </Link>
+    </Typography>
+  </Box>
 );
