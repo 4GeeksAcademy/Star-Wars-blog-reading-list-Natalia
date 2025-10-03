@@ -16,6 +16,8 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import swlogo from "../assets/img/swlogo2.jpg";
 import { Views } from "../pages/Views";
+import { SearchBar } from "./SearchBar";
+
 
 export const Navbar = ({ children }) => {
 
@@ -55,7 +57,12 @@ export const Navbar = ({ children }) => {
 
 
           </IconButton>
+           <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
+           <SearchBar />
+           </Box>
+           
           <Box sx={{ minWidth: 120 }}>
+           
            <Button component={Link} to="/dashboard" color="inherit" sx={{ mr: 2 }}>
            Dashboard
            </Button>
